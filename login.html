@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MINAR HOTEL Login Signup</title>
+  <link rel="stylesheet" href="login.css">
+</head>
+<body>
+
+<div class="container">
+  <div class="form-box">
+
+    <h1>MINAR HOTEL</h1>
+
+    <div class="tabs">
+      <button id="loginTab" class="active">Login</button>
+      <button id="signupTab">Signup</button>
+    </div>
+
+    <form id="loginForm">
+      <h2>Login</h2>
+      <input type="email" placeholder="Enter Email" required>
+      <input type="password" placeholder="Enter Password" required>
+      <button type="submit">Login</button>
+      <p>Don’t have an account? <span id="goSignup">Signup</span></p>
+    </form>
+
+    <form id="signupForm" class="hidden">
+      <h2>Create Account</h2>
+      <input type="text" placeholder="Username" required>
+      <input type="email" placeholder="Email" required>
+      <input type="tel" placeholder="Mobile Number" required>
+      <input type="password" placeholder="Password" required>
+      <input type="password" placeholder="Re-enter Password" required>
+      <button type="submit">Signup</button>
+      <p>Already have an account? <span id="goLogin">Login</span></p>
+    </form>
+
+  </div>
+</div>
+
+<script src="login.js"></script>
+</body>
+</html>
